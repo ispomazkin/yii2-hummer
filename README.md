@@ -28,7 +28,7 @@ composer require ispomazkin/yii2-hummer
 Чтобы задать собственные шаблон генерации title, keywords, description,
 используются предустановленные шаблоны переменные {model},{year},{group},{parts} 
 
-        'chevrolet'=>[
+        'hummer'=>[
             'class'=>'\ispomazkin\hummer\Module',
             'host'=>'http://149.154.64.192',
             'image_path'=>'/img/img_hummer',
