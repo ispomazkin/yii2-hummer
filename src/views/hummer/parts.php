@@ -14,9 +14,9 @@
 use yii\helpers\Html;
 use yii\helpers\Url;
 use app\components\Helper;
-use ispomazkin\cadillac\CadillacAssetBundle;
+use ispomazkin\hummer\HummerAssetBundle;
 
-CadillacAssetBundle::register($this);
+HummerAssetBundle::register($this);
 
 $img_src = $img_path . '/' .  $data['img'];
 ?>

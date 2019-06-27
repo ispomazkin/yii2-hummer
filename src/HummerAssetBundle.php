@@ -6,14 +6,14 @@
  * Time: 13:17
  */
 
-namespace ispomazkin\cadillac;
+namespace ispomazkin\hummer;
 
 use yii\web\AssetBundle;
 
-class CadillacAssetBundle extends AssetBundle
+class HummerAssetBundle extends AssetBundle
 {
 
-    public $sourcePath = '@vendor/ispomazkin/yii2-cadillac/assets';
+    public $sourcePath = '@vendor/ispomazkin/yii2-hummer/assets';
 
     public $css = [
         'css/style.css'

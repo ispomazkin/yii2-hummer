@@ -11,16 +11,16 @@
  */
 use yii\helpers\Html;
 use yii\helpers\Url;
-use ispomazkin\cadillac\CadillacAssetBundle;
+use ispomazkin\hummer\HummerAssetBundle;
 
 
 
-CadillacAssetBundle::register($this);
+HummerAssetBundle::register($this);
 
 ?>
 
 
 
 <?php foreach($years as $year):?>
-    <?=Html::tag('span',Html::a($year['year'], Url::to(['cadillac/categories','year_url'=>$year['url']])))?>&nbsp;
+    <?=Html::tag('span',Html::a($year['year'], Url::to(['hummer/categories','year_url'=>$year['url']])))?>&nbsp;
 <?php endforeach;?>

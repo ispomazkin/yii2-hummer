@@ -1,6 +1,6 @@
 <?php
 
-namespace ispomazkin\cadillac;
+namespace ispomazkin\hummer;
 
 use yii\base\Module as BaseModule;
 
@@ -30,7 +30,7 @@ class Module extends BaseModule
      * @var string
      * Базовый путь к каталогу
      */
-    public $base_url='/cadillac';
+    public $base_url='/hummer';
 
 
     /**
@@ -40,7 +40,7 @@ class Module extends BaseModule
      * {model},{category},{group},{last}
      */
     public $titlePattern=[
-        'years'=>'Запчасти Кадилак',
+        'years'=>'Запчасти Hummer',
         'categories'=>'{model} {year}',
         'groups'=>'{category}',
         'parts'=>'{parts}'
@@ -53,7 +53,7 @@ class Module extends BaseModule
      * {model},{category},{group},{last}
      */
     public $kwdsPattern=[
-        'years'=>'EPC Cadilac',
+        'years'=>'EPC Hummer',
         'categories'=>'{model} {year}',
         'groups'=>'{model} {year} ',
         'parts'=>'{parts}'
@@ -67,7 +67,7 @@ class Module extends BaseModule
      * {model},{category},{group},{last}
      */
     public $descriptionPattern=[
-        'years'=>'Каталог запчастей Кадилак',
+        'years'=>'Каталог запчастей Hummer',
         'categories'=>'Каталог запчастей  {model} {year}',
         'groups'=>'Каталог запчастей  {model} {year} по категории {category}',
         'parts'=>'Каталог запчастей  {model} {year} {category} {group} {parts}'
@@ -77,6 +77,6 @@ class Module extends BaseModule
 
 
 
-    public $controllerNamespace = 'ispomazkin\cadillac\controllers';
+    public $controllerNamespace = 'ispomazkin\hummer\controllers';
 
 }

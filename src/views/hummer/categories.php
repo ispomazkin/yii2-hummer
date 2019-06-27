@@ -11,9 +11,9 @@
 
 use yii\helpers\Html;
 use yii\helpers\Url;
-use ispomazkin\cadillac\CadillacAssetBundle;
+use ispomazkin\hummer\HummerAssetBundle;
 
-CadillacAssetBundle::register($this);
+HummerAssetBundle::register($this);
 
 
 ?>
@@ -24,7 +24,7 @@ CadillacAssetBundle::register($this);
     </tr>
     <?php foreach($data['categories'] as $category):?>
         <tr>
-            <td><?=Html::a($category['description'],Url::to(['cadillac/groups','year_url'=>$data['model_url'],'category_url'=>$category['url']]))?></td>
+            <td><?=Html::a($category['description'],Url::to(['hummer/groups','year_url'=>$data['model_url'],'category_url'=>$category['url']]))?></td>
         </tr>
     <?php endforeach;?>
 </table>

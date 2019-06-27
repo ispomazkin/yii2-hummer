@@ -9,12 +9,12 @@
  * @var $data array
  */
 
-use ispomazkin\chevrolet_america\ChevroletAmericaAssetBundle;
+use ispomazkin\hummer\HummerAssetBundle;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use app\components\Helper;
 
-ChevroletAmericaAssetBundle::register($this);
+HummerAssetBundle::register($this);
 
 ?>
 <?=Html::tag('h1',$this->title)?>
